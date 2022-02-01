@@ -10,7 +10,7 @@ from .consts import SUCCESS, FAILED
 
 
 if sys.platform.startswith("win32"):
-    timer = time.perf_counter()
+    timer = time.perf_counter
 else:
     timer = time.time
 
